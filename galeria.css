@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #E6E6FA; /* Color lila claro */
+    color: #333;
+}
+
+header {
+    background-color: #9400D3; /* Color lila más oscuro para el encabezado */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.imagen-contenedor {
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-contenedor img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagen-contenedor img:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
+    cursor: pointer;
+}

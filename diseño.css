@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #ADD8E6; /* Fondo azul claro */
+    color: #333;
+}
+
+header {
+    background-color: #007bff; /* Un azul más fuerte para el encabezado */
+    color: white;
+    padding: 10px 0;
+}
+
+.menu {
+    background-color: white; /* Menú de navegación blanco */
+    padding: 15px 0;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.portada {
+    text-align: center;
+    padding: 30px;
+}
+
+.portada h1 {
+    color: #007bff;
+}
+
+.portada img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Opcional: bordes redondeados para la imagen */
+}
+
+.portada ul {
+    list-style: none;
+    padding: 0;
+}
+
+.portada li {
+    margin-bottom: 5px;
+}
+
+#miBoton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#miBoton:hover {
+    background-color: #0056b3;
+}
